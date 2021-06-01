@@ -2,9 +2,9 @@ bits	64
 
 section	.text
 
-global	_main
+global	start
 
-_main:
+start:
 	mov			rbx,	0x1000000
 
 loop:
